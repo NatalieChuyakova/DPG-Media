@@ -1,0 +1,29 @@
+{
+  "name": "dpg-media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalieChuyakova/DPG-Media.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalieChuyakova/DPG-Media/issues"
+  },
+  "homepage": "https://github.com/NatalieChuyakova/DPG-Media#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "playwright-core": "^1.30.0"
+  },
+  "dependencies": {
+    "playwright": "^1.30.0"
+  }
+}
