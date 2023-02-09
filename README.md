@@ -1,4 +1,4 @@
-# THIS IS FOR MAC
+# THIS IS FOR MAC ONLY
 
 # Make sure node.js is installed
 Check if it's being installed:
@@ -25,3 +25,9 @@ Add dependency and install browsers.
 npm i -D @playwright/test
 # install supported browsers
 npx playwright install
+
+# to run test in a headed mode
+npx playwright test test.spec.js --headed 
+
+# to enable/disable a browser that you would like to run your tests 
+check playwright.config.js
